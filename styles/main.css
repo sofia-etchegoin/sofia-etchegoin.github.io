@@ -1,3 +1,47 @@
+/*Media queries for different screen sizes*/
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+  /* Your CSS styles for extra small screens go here */
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your CSS styles for small screens go here */
+}
+
+/* Medium devices (small laptops and large tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your CSS styles for medium screens go here */
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your CSS styles for large screens go here */
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  /* Your CSS styles for extra large screens go here */
+}
+
 body {
   background: yellow;
+  font-family: 'Lora', serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Reduce the margin and padding for the list items */
+ol {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  list-style-position: inside; /* Place numbers inside the list items */
+}
+
+/* Adjust the margin for each list item */
+li {
+  margin-bottom: 5px; /* Adjust the spacing between items as needed */
 }
