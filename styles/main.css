@@ -25,7 +25,6 @@
 }
 
 body {
-  background: yellow;
   font-family: 'Lora', serif;
   font-family: 'Raleway', sans-serif;
 }
@@ -37,11 +36,26 @@ body {
 /* Reduce the margin and padding for the list items */
 ol {
   margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  padding-left: 50vh;
+  padding-top: 2vh;
   list-style-position: inside; /* Place numbers inside the list items */
+  text-align: left;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 /* Adjust the margin for each list item */
 li {
-  margin-bottom: 5px; /* Adjust the spacing between items as needed */
+  margin-bottom: 10px; /* Adjust the spacing between items as needed */
+}
+
+span.italic {
+  font-style: italic;
+}
+
+span.large-text {
+  font-size: 120px;
 }
