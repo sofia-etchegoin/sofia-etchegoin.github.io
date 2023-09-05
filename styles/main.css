@@ -86,8 +86,9 @@ span.large-text {
 }
 
 footer {
-  padding-top: 15vh;
-  padding-bottom: 20vh;
+  position: fixed;
+  bottom: 0;
+  left: 25%;
 }
 
 span.content {
