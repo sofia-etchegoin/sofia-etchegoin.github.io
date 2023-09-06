@@ -59,7 +59,8 @@ body {
 }
 
 /* Reduce the margin and padding for the list items */
-ol {
+ol,
+ul {
   margin: 0; /* Remove default margin */
   padding-left: 50vh;
   padding-top: 2vh;
