@@ -23,60 +23,30 @@
       <nav class="nav-container">
         <div class="nav" id="top-nav">
           <ul>
-            <li><a href="#Home">Home</a></li>
+            <li><a href="https://sofia-etchegoin.github.io/">Home</a></li>
             <li><a>About</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <div>
-     <header>
-        <h1>What are the differences between relative, absolute, and fixed positioning?</h1>
-     </header>
+    <!-- BLOG TITLE -->
+    <div class="blog-title">
+      <h1>Sprint 2</h1>
+      <h2>What are the differences between relative, absolute, and fixed positioning?</h2>
     </div>
 
-    <div>
-      <h3>In CSS (Cascading Style Sheets), relative, absolute, and fixed positioning are three different ways to control the layout and positioning of elements on a webpage.</h3>
-    </div>
+    <!-- BLOG TEXT -->
+    <div class="blog-text">
+      <p>I’m so glad you asked.</p>
+      <br><p>In CSS (Cascading Style Sheets), relative, absolute, and fixed positioning are three different ways to control the layout and positioning of elements on a webpage.</p>
+      <br><h3>Relative Positioning:</h3>
+      <br><p>Imagine relative positioning as if you're giving your webpage elements a GPS device. They know where they are, but it's all relative. It's like telling your friend, "Stay three steps to the right of the big, blue elephant." Sounds fun, right? But here's the twist: when the elephant (or any other element) moves, your friend moves with it! So, it's like they're attached at the hip, and they'll always maintain that relative distance. Great for dynamic layouts, but your friend might get tired of following that elephant around.</p>
 
-      <div> 
-      <h2>Relative Positioning</h2>
-      <p>
-        <ul>
-        <li>This is the default positioning behaviour for HTML elements.</li>
-        <li>It is positioned <span class="italic">relative</span> to its normal position in the document flow.</li>
-        <li>You use "top", "right", "bottom" and "left" to offset the element relative to its original position.</li>
-        <li>Other elements in the document flow are not affected by the element's relative positioning. It essentially creates a new positioning context for the element without affecting the surrounding elements.</li>
-      </ul>
-      </p>
-    </div> 
-    
-   <div>    
-   <h2>Absolute Positioning</h2>
-     <p>
-       <ul>
-       <li>When an element is positioned relative to the nearest positioned ancestor element</li>
-       <li>If no ancestor element has a position other than the default "static," the element will be positioned relative to the initial containing block, which is typically the viewport.</li>
-       <li>Takes the element out of the normal document flow, so it won't affect the layout of other elements. Other elements will ignore the space previously occupied by the absolutely positioned element.</li>
-       </ul>
-     </p>   
-  </div> 
-        
-  <div>
-  <h2>Fixed Positioning</h2>
-   <p>
-     <ul>
-     <li>Is similar to absolute positioning, but it positions the element relative to the viewport, regardless of scrolling.</li>
-     <li>A fixed-positioned element will stay in the same position on the screen even when the user scrolls the page.</li>
-     <li>Like absolute positioning, it takes the element out of the normal document flow.</li>
-     </ul>
-    </p>   
-  </div>
-
-  <div>
-    <p>In summary, relative positioning positions an element relative to its normal position, absolute positioning positions it relative to the nearest positioned ancestor, and fixed positioning positions it relative to the viewport.</p>
-  </div>
- 
+      <br><h3>Absolute Positioning:</h3>
+      <br><p>Now, absolute positioning is like giving your elements a treasure map with an X marks the spot. They don't care about anything else; they just want to go to their special location, even if it means walking through walls. It's like your webpage elements have tunnel vision. They'll stay exactly where you tell them to, no matter what's happening around them. But here's the catch: if you change the layout or add new elements, things might get messy, like a treasure buried under a construction site.</p>
+      
+      <br><h3>Fixed Positioning:</h3>
+      <br><p>Fixed positioning is like sticking a sticky note on your elements. No matter how much you scroll or zoom, they're staying put! It's like having a pet rock for your web design. It's always there, at the same spot, watching you scroll like it's judging your internet habits. Great for headers, footers, and navigation bars that need to follow you like a loyal but silent companion.</p>
     </body>
   </html>
