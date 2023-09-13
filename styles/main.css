@@ -172,3 +172,14 @@ p {
 .blog-text h3 {
   color: grey;
 }
+
+.blog-text ol li {
+  list-style-type: decimal;
+  text-align: left;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+img {
+  border-radius: 2%;
+}
