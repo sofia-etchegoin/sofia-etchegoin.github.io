@@ -183,3 +183,7 @@ p {
 img {
   border-radius: 2%;
 }
+
+.blog-text span a {
+  color: pink;
+}
