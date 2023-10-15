@@ -187,4 +187,5 @@ img {
 .blog-text span a {
   color: pink;
   background-color: aliceblue;
+  font-weight: bold;
 }
