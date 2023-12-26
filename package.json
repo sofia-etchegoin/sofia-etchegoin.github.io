@@ -1,0 +1,12 @@
+{
+  "name": "sofia-etchegoin.github.io",
+  "version": "1.0.0",
+  "description": "This blog page was initially simply built with vanilla HTML and CSS for my Dev Academy course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
