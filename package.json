@@ -1,6 +1,6 @@
 {
   "homepage": "http://sofia-etchegoin.github.io",
-  "name": "sofia-etchegoin.github.io",
+  "name": "welcome",
   "version": "1.0.0",
   "description": "This blog page was initially simply built with vanilla HTML and CSS for my Dev Academy course.",
   "main": "index.js",
