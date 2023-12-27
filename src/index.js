@@ -1,10 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './components/App'
+import { createRoot } from 'react-dom/client'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-)
+import App from './components/App'
+import Footer from './components/Footer'
+import Header from './components/Header'
+
+const queryClient = new QueryClient()
+
+document.addEventListener('DOMContentLoaded', () => {
+  createRoot(document.getElementById('app')).render(
+    <QueryClientProvider client={queryClient}>
+      <Header />
+      <App />
+      <Footer />
+      <ReactQueryDevtools />
+    </QueryClientProvider>
+  )
+})
