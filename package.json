@@ -1,10 +1,13 @@
 {
+  "homepage": "http://sofia-etchegoin.github.io",
   "name": "sofia-etchegoin.github.io",
   "version": "1.0.0",
   "description": "This blog page was initially simply built with vanilla HTML and CSS for my Dev Academy course.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +19,8 @@
     "react": "^18.2.0",
     "react-router": "^6.21.1",
     "react-router-dom": "^6.21.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
