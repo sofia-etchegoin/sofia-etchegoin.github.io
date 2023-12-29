@@ -2,6 +2,9 @@ import React from 'react'
 import Header from './Header'
 import Nav from './Nav'
 import Intro from './Intro'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
 
 export default function App() {
   return (
@@ -10,6 +13,9 @@ export default function App() {
         <Header />
         <Nav />
         <Intro />
+        <About />
+        <Projects />
+        <Contact />
       </div>
     </>
   )
