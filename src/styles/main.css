@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/*Media queries for different screen sizes*/
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (small laptops and large tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+}
+
+/* Nav bar */
+
+.nav {
+  width: 97px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px; /* Adjust the height as needed */
+}
+
+.nav-sections {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  transform: rotate(90deg);
+  white-space: nowrap;
+}
+
+.nav-sections a {
+  text-decoration: none;
+  padding: 30px; /* Adjust padding as needed */
+}
+
+.nav-sections a:hover {
+  color: white;
+}
+
+/* Header */
+
+/* Logos */
+.element-logos {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+  z-index: 1000;
+}
+
+/* LinkedIn Logo */
+.element-linkedin-logo {
+  margin-right: 10px;
+  height: 40px;
+  top: 32px;
+  width: 40px;
+}
+
+.element-linkedin-logo:hover {
+  opacity: 0.4;
+}
+
+/* GitHub Logo */
+.element-github-logo {
+  margin-right: 10px;
+  height: 40px;
+  top: 32px;
+  width: 40px;
+}
+
+.element-github-logo:hover {
+  opacity: 0.4;
+}
+
+/* My Resume Button */
+
+.my-resume {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #faaed7;
+}
+
+.my-resume:hover {
+  opacity: 0.6;
+}
+
+/* Contact Me Button */
+.contact-me {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #faaed7;
+}
+
+.contact-me:hover {
+  opacity: 0.6;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  background-color: #faaed7;
+  font-family: 'Roboto Mono', monospace;
+}

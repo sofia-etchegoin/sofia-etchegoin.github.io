@@ -1,9 +1,16 @@
 import React from 'react'
+import Header from './Header'
+import Nav from './Nav'
+import Intro from './Intro'
 
 export default function App() {
   return (
     <>
-      <h1>Hi! I'm Sofia Etchegoin</h1>
+      <div>
+        <Header />
+        <Nav />
+        <Intro />
+      </div>
     </>
   )
 }
