@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #faaed7;
+  background-color: #f1bdd9;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -71,6 +71,7 @@ body {
   align-items: center;
   object-fit: cover;
   z-index: 1000;
+  padding: 30px;
 }
 
 /* LinkedIn Logo */
@@ -105,7 +106,7 @@ body {
   right: 0;
   left: 10;
   font-family: 'Roboto Mono', monospace;
-  background-color: #faaed7;
+  background-color: #f1bdd9;
   border-radius: 4px;
   margin: 30px;
 }
@@ -129,7 +130,7 @@ body {
 /* Contact Me Button */
 .contact-me {
   font-family: 'Roboto Mono', monospace;
-  background-color: #faaed7;
+  background-color: #f1bdd9;
   border-radius: 4px;
 }
 
@@ -143,7 +144,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -153,6 +154,8 @@ body {
 .about p {
   max-width: 800px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Projects section */
@@ -174,7 +177,7 @@ body {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 50px;
 }
 
 .project {
@@ -187,6 +190,7 @@ body {
   object-fit: cover;
   width: 441px;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .project-title {
@@ -194,6 +198,17 @@ body {
   bottom: 0;
   left: 0; /* Align the title to the left */
   font-weight: bold;
+}
+
+.github-logo {
+  height: 30px; /* Adjust the height as needed */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.github-logo:hover {
+  opacity: 0.4;
 }
 
 /* Contact section */

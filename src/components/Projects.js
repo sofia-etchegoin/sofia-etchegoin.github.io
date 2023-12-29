@@ -1,9 +1,9 @@
 //screenshot imports
 import missingPurrson from '../images/Screenshot_Missing_Purrson.png'
 import confessionsForCats from '../images/Screenshot_Confessions_For_Cats.png'
-import trollTollCalculate from '../images/Screenshot_Troll_Toll_Calculator.png'
+import trollTollCalculator from '../images/Screenshot_Troll_Toll_Calculator.png'
 import testing from '../images/Screenshot_Testing.png'
-import githubLogo from '../images/github_logo.png'
+import gitHubLogo from '../images/github_logo.png'
 
 export default function Projects() {
   return (
@@ -17,14 +17,28 @@ export default function Projects() {
             src={missingPurrson}
           />
           <div className="project-title">Missing Purrson</div>
+          <a
+            href="https://github.com/sofia-etchegoin/missing-purrson"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="github-logo" alt="GitHub Logo" src={gitHubLogo} />
+          </a>
         </div>
         <div className="project">
           <img
             className="screen-shot"
             alt="Troll Toll Calculator"
-            src={trollTollCalculate}
+            src={trollTollCalculator}
           />
           <div className="project-title">Troll Toll Calculator</div>
+          <a
+            href="https://github.com/sofia-etchegoin/troll-toll-calculator"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="github-logo" alt="GitHub Logo" src={gitHubLogo} />
+          </a>
         </div>
         <div className="project">
           <img
@@ -33,10 +47,24 @@ export default function Projects() {
             src={confessionsForCats}
           />
           <div className="project-title">Confessions for Cats</div>
+          <a
+            href="https://github.com/sofia-etchegoin/confessions-for-cats"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="github-logo" alt="GitHub Logo" src={gitHubLogo} />
+          </a>
         </div>
         <div className="project">
           <img className="screen-shot" alt="Testing Exercise" src={testing} />
           <div className="project-title">Testing Exercise</div>
+          <a
+            href="https://github.com/sofia-etchegoin/testing-exercise"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="github-logo" alt="GitHub Logo" src={gitHubLogo} />
+          </a>
         </div>
       </div>
     </div>
