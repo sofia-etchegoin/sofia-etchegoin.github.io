@@ -26,6 +26,14 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+/* Section Animation */
+
+section span {
+  display: block;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
 /* Nav bar starts*/
 
 .nav {
@@ -99,7 +107,6 @@ body {
 }
 
 /* My Resume Button */
-
 .my-resume {
   position: fixed;
   top: 0;
@@ -128,6 +135,7 @@ body {
 }
 
 /* Contact Me Button */
+
 .contact-me {
   font-family: 'Roboto Mono', monospace;
   background-color: #f1bdd9;

@@ -6,6 +6,8 @@ export default function Intro() {
       <div className="intro">
         <h1>Hi! I'm Sofia Etchegoin.</h1>
         <h2>I'm a full stack developer from Wellington.</h2>
+
+        {/* 'Contact me' button */}
         <Link to="contact" smooth={true} duration={500}>
           <button className="contact-me">Contact me</button>
         </Link>

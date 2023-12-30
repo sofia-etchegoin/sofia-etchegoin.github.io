@@ -42,6 +42,7 @@ export default function Header() {
           src={githubLogo}
         />
       </a>
+
       {/* My Resume button */}
       <button className="my-resume" onClick={handleResumeDownload}>
         My Resume
