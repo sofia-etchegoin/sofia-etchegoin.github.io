@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.5a04969e.js",
+    "main.css": "/static/css/main.09292a8a.css",
+    "main.js": "/static/js/main.0f395052.js",
+    "static/media/Screenshot_Confessions_For_Cats.png": "/static/media/Screenshot_Confessions_For_Cats.270716553da71d60092a.png",
+    "static/media/Screenshot_Missing_Purrson.png": "/static/media/Screenshot_Missing_Purrson.19e0f1e84bc43bda6c87.png",
+    "static/media/Screenshot_Troll_Toll_Calculator.png": "/static/media/Screenshot_Troll_Toll_Calculator.26441f08e46c75e2a156.png",
+    "static/media/Screenshot_Testing.png": "/static/media/Screenshot_Testing.d80a1acc404dccca663c.png",
+    "static/media/github_logo.png": "/static/media/github_logo.ba9cb8d57d53e7189c48.png",
+    "static/media/linkedin_logo.png": "/static/media/linkedin_logo.13737f7573543114533f.png",
     "index.html": "/index.html",
-    "main.5a04969e.js.map": "/static/js/main.5a04969e.js.map"
+    "main.09292a8a.css.map": "/static/css/main.09292a8a.css.map",
+    "main.0f395052.js.map": "/static/js/main.0f395052.js.map"
   },
   "entrypoints": [
-    "static/js/main.5a04969e.js"
+    "static/css/main.09292a8a.css",
+    "static/js/main.0f395052.js"
   ]
 }
