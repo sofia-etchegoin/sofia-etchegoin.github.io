@@ -1,2 +1,161 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);body{background-color:#f1bdd9;font-family:Roboto Mono,monospace}section span{display:block;opacity:0;transform:translateX(-100px)}.nav{align-items:center;display:flex;flex-direction:column;height:200px;justify-content:space-between;left:0;position:fixed;top:50%;transform:translateY(-50%);width:97px}.nav-sections{font-size:18px;font-weight:400;letter-spacing:0;line-height:normal;text-align:center;transform:rotate(90deg);white-space:nowrap}.nav-sections a{padding:30px;text-decoration:none}.nav-sections a:hover{color:#fff}.element-logos{align-items:center;display:flex;object-fit:cover;padding:30px;position:fixed;z-index:1000}.element-linkedin-logo{height:40px;margin-right:10px;top:32px;width:40px}.element-linkedin-logo:hover{opacity:.4}.element-github-logo{height:40px;margin-right:10px;top:32px;width:40px}.element-github-logo:hover{opacity:.4}.my-resume{background-color:#f1bdd9;border-radius:4px;font-family:Roboto Mono,monospace;left:10;margin:30px;position:fixed;right:0;top:0}.my-resume:hover{opacity:.6}.intro{align-items:center;display:flex;flex-direction:column;height:100vh;justify-content:center}.contact-me{background-color:#f1bdd9;border-radius:4px;font-family:Roboto Mono,monospace}.contact-me:hover{opacity:.6}.about{align-items:flex-start;display:flex;flex-direction:column;height:100vh;justify-content:center;margin:0;padding:0}.about h1,.about p{margin-left:auto;margin-right:auto;max-width:800px;text-align:center}.projects{align-items:center;display:flex;flex-direction:column;height:100vh;justify-content:center}.projects h1{margin-bottom:20px;max-width:800px;text-align:center}.project-grid{grid-gap:50px;display:grid;grid-template-columns:repeat(2,1fr)}.project{position:relative;text-align:center}.project .screen-shot{border-radius:10px;height:253px;margin-bottom:30px;object-fit:cover;width:441px}.project-title{bottom:0;font-weight:700;left:0;position:absolute}.github-logo{bottom:0;height:30px;position:absolute;right:0}.github-logo:hover{opacity:.4}.contact{align-items:center;display:flex;flex-direction:column;height:100vh;justify-content:center;margin:0;padding:0}
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
+body {
+  background-color: #f1bdd9;
+  font-family: Roboto Mono, monospace;
+}
+section span {
+  display: block;
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 97px;
+}
+.nav-sections {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  transform: rotate(90deg);
+  white-space: nowrap;
+}
+.nav-sections a {
+  padding: 30px;
+  text-decoration: none;
+}
+.nav-sections a:hover {
+  color: #fff;
+}
+.element-logos {
+  align-items: center;
+  display: flex;
+  object-fit: cover;
+  padding: 30px;
+  position: fixed;
+  z-index: 1000;
+}
+.element-linkedin-logo {
+  height: 40px;
+  margin-right: 10px;
+  top: 32px;
+  width: 40px;
+}
+.element-linkedin-logo:hover {
+  opacity: 0.4;
+}
+.element-github-logo {
+  height: 40px;
+  margin-right: 10px;
+  top: 32px;
+  width: 40px;
+}
+.element-github-logo:hover {
+  opacity: 0.4;
+}
+.my-resume {
+  background-color: #f1bdd9;
+  border-radius: 4px;
+  font-family: Roboto Mono, monospace;
+  left: 10;
+  margin: 30px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.my-resume:hover {
+  opacity: 0.6;
+}
+.intro {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.contact-me {
+  background-color: #f1bdd9;
+  border-radius: 4px;
+  font-family: Roboto Mono, monospace;
+}
+.contact-me:hover {
+  opacity: 0.6;
+}
+.about {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.about h1,
+.about p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  text-align: center;
+}
+.projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.projects h1 {
+  margin-bottom: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+.project-grid {
+  grid-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.project {
+  position: relative;
+  text-align: center;
+}
+.project .screen-shot {
+  border-radius: 10px;
+  height: 253px;
+  margin-bottom: 30px;
+  object-fit: cover;
+  width: 441px;
+}
+.project-title {
+  bottom: 0;
+  font-weight: 700;
+  left: 0;
+  position: absolute;
+}
+.github-logo {
+  bottom: 0;
+  height: 30px;
+  position: absolute;
+  right: 0;
+}
+.github-logo:hover {
+  opacity: 0.4;
+}
+.contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
 /*# sourceMappingURL=main.09292a8a.css.map*/
