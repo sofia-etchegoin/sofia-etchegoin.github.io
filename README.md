@@ -6,7 +6,19 @@ I re-wrote the code after the course finished, freshly equipped with React skill
 
 To run the website in development:
 
-Clone the repo, run 'npm i' to install dependencies and 'npm start' to view in http://localhost:3000/.
+Clone the repo, run
+
+```sh
+npm install
+```
+
+to install dependencies and
+
+```sh
+npm start
+```
+
+to view in http://localhost:3000/.
 
 Visit the webpage here:
 
