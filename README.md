@@ -6,13 +6,13 @@ I re-wrote the code after the course finished, freshly equipped with React skill
 
 To run the website in development:
 
-Clone the repo, run
+Clone the repo and run
 
 ```sh
 npm install
 ```
 
-to install dependencies and
+to install dependencies, and
 
 ```sh
 npm start
