@@ -1,6 +1,6 @@
 //screenshot imports
 import missingPurrson from '../images/Screenshot_Missing_Purrson.png'
-import confessionsForCats from '../images/Screenshot_Confessions_For_Cats.png'
+import bookClub from '../images/Screenshot_Book_Club.png'
 import trollTollCalculator from '../images/Screenshot_Troll_Toll_Calculator.png'
 import testing from '../images/Screenshot_Testing.png'
 import gitHubLogo from '../images/github_logo.png'
@@ -48,15 +48,12 @@ export default function Projects() {
 
         {/* Project 3 */}
         <div className="project">
-          <img
-            className="screen-shot"
-            alt="Confessions for Cats"
-            src={confessionsForCats}
-          />
-          <div className="project-title">Confessions for Cats</div>
+          <img className="screen-shot" alt="Book Club" src={bookClub} />
+          <div className="project-title">Book Club</div>
+
           {/* GitHub link */}
           <a
-            href="https://github.com/sofia-etchegoin/confessions-for-cats"
+            href="https://github.com/sofia-etchegoin/book-list"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -68,6 +65,7 @@ export default function Projects() {
         <div className="project">
           <img className="screen-shot" alt="Testing Exercise" src={testing} />
           <div className="project-title">Testing Exercise</div>
+
           {/* GitHub link */}
           <a
             href="https://github.com/sofia-etchegoin/testing-exercise"
