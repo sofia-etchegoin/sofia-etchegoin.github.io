@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/welcome/static/css/main.a0cce3f7.css",
-    "main.js": "/welcome/static/js/main.e8fd8b64.js",
+    "main.css": "/welcome/static/css/main.88d03ba0.css",
+    "main.js": "/welcome/static/js/main.3acaddf9.js",
     "static/media/Screenshot_Missing_Purrson.png": "/welcome/static/media/Screenshot_Missing_Purrson.19e0f1e84bc43bda6c87.png",
     "static/media/Screenshot_Troll_Toll_Calculator.png": "/welcome/static/media/Screenshot_Troll_Toll_Calculator.26441f08e46c75e2a156.png",
     "static/media/Screenshot_Testing.png": "/welcome/static/media/Screenshot_Testing.d80a1acc404dccca663c.png",
@@ -9,11 +9,11 @@
     "static/media/github_logo.png": "/welcome/static/media/github_logo.ba9cb8d57d53e7189c48.png",
     "static/media/linkedin_logo.png": "/welcome/static/media/linkedin_logo.13737f7573543114533f.png",
     "index.html": "/welcome/index.html",
-    "main.a0cce3f7.css.map": "/welcome/static/css/main.a0cce3f7.css.map",
-    "main.e8fd8b64.js.map": "/welcome/static/js/main.e8fd8b64.js.map"
+    "main.88d03ba0.css.map": "/welcome/static/css/main.88d03ba0.css.map",
+    "main.3acaddf9.js.map": "/welcome/static/js/main.3acaddf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0cce3f7.css",
-    "static/js/main.e8fd8b64.js"
+    "static/css/main.88d03ba0.css",
+    "static/js/main.3acaddf9.js"
   ]
 }
