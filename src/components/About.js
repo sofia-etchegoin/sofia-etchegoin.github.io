@@ -3,8 +3,8 @@ export default function About() {
     <div className="about" id="about">
       <h1>About</h1>
       <p>
-        An ex-public servant turned full stack developer, I'm a career-changer
-        on the lookout for the next opportunity in Wellington.
+        A public servant and software developer, I'm a career-changer on the
+        lookout for the next opportunity in Wellington.
       </p>
 
       <p>
@@ -16,9 +16,9 @@ export default function About() {
 
       <p>
         Completing the bootcamp at Dev Academy Aotearoa further ignited a love
-        for working with others to create well-designed applications. Building
-        great software to help others and writing clean code excite me, and I’m
-        looking forward to learning more.
+        for working with others to create well-designed applications. Creating
+        technical solutions to help others and writing clean code excite me, and
+        I’m looking forward to learning more.
       </p>
 
       <p>Check out my projects and resume!</p>

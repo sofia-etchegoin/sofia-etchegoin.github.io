@@ -1,25 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-/*Media queries for different screen sizes*/
-/* Extra small devices (phones) */
-@media (max-width: 575.98px) {
+/* -- Media queries start -- */
+
+/* Desktop */
+@media (min-width: 2560px) {
+  /* Adjust styles for desktop screens */
 }
 
-/* Small devices (tablets) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+/* Laptop L */
+@media (min-width: 1440px) and (max-width: 2559px) {
+  /* Adjust styles for large laptops */
 }
 
-/* Medium devices (small laptops and large tablets) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .about h1,
+  .about p {
+    max-width: 500px; /* Adjust the max-width for the about section on tablets */
+  }
+
+  .projects h1 {
+    max-width: 600px; /* Adjust the max-width for the projects section on tablets */
+  }
 }
 
-/* Large devices (desktops) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Adjust styles for tablets */
+  .about h1,
+  .about p {
+    max-width: 600px; /* Adjust the max-width for the about section on tablets */
+  }
+
+  .projects h1 {
+    max-width: 600px; /* Adjust the max-width for the projects section on tablets */
+  }
 }
 
-/* Extra large devices (large desktops) */
-@media (min-width: 1200px) {
+/* Mobile L */
+@media (min-width: 425px) and (max-width: 767px) {
+  /* Adjust styles for large mobile screens */
+  .about h1,
+  .about p {
+    max-width: 400px; /* Adjust the max-width for the about section on large mobile screens */
+  }
+
+  .projects h1 {
+    max-width: 400px; /* Adjust the max-width for the projects section on large mobile screens */
+  }
 }
+
+/* Mobile M */
+@media (min-width: 375px) and (max-width: 424px) {
+  /* Adjust styles for medium mobile screens */
+  .about h1,
+  .about p {
+    max-width: 300px; /* Adjust the max-width for the about section on medium mobile screens */
+  }
+
+  .projects h1 {
+    max-width: 300px; /* Adjust the max-width for the projects section on medium mobile screens */
+  }
+}
+
+/* Mobile S */
+@media (max-width: 374px) {
+  /* General adjustments for all sections */
+  section {
+    width: 100%; /* Make sections full width */
+  }
+
+  .intro {
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within the section */
+  }
+
+  /* Header adjustments */
+  .element-logos {
+    padding: 10px; /* Adjust padding for better spacing */
+  }
+
+  /* Nav bar adjustments */
+  .nav {
+    width: 100%; /* Make the nav full width */
+    height: auto; /* Auto height to accommodate content */
+    /* position: static; Remove fixed positioning for better flow */
+    transform: translateY(-50%); /* Reset vertical transformation */
+  }
+
+  .nav-sections {
+    font-size: 14px; /* Adjust font size for better readability on small screens */
+    transform: none; /* Reset rotation */
+    white-space: normal; /* Allow text to wrap */
+  }
+
+  .nav-sections a {
+    padding: 10px; /* Adjust padding for better spacing */
+  }
+
+  /* About section adjustments */
+  .about {
+    text-align: center; /* Center text within the section */
+    padding: 20px; /* Adjust padding for better spacing */
+  }
+
+  .about h1,
+  .about p {
+    max-width: 100%; /* Make text width 100% to avoid overflow */
+    margin: 20px 10px; /* Adjust margin for better spacing */
+  }
+
+  /* Projects section adjustments */
+  .projects h1 {
+    max-width: 100%; /* Make text width 100% to avoid overflow */
+    margin: 20px 10px; /* Adjust margin for better spacing */
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr; /* Make projects stack vertically */
+    grid-gap: 20px; /* Adjust grid gap for better spacing */
+  }
+
+  .project .screen-shot {
+    width: 100%; /* Make images width 100% to fit smaller screens */
+  }
+}
+
+/* -- Media queries end -- */
 
 body {
   background-color: #f1bdd9;
